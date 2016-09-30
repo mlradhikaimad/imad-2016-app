@@ -3,7 +3,7 @@ var counter=0;
 butt.onclick=function(){
    var request=new XMLHttpRequest();    
    request.onreadystatechange=function(){
-       if(request.readystate===XMLHttpRequest.DONE)
+       if(request.readyState===XMLHttpRequest.DONE)
        {
            if(request.status===200)
        {
