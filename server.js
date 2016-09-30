@@ -9,13 +9,13 @@ var articleOne={
   head:`Article One`,
   date:'Created on 29th september 2016',
   content: `<p>
-        This is the first paragraph
+        This is the first paragraph of first article
     </p>
      <p>
-        This is the second paragraph
+        This is the second paragraph of first article
     </p>
      <p>
-        This is the third paragraph
+        This is the third paragraph of first article
     </p>`
   
       };
