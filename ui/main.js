@@ -7,12 +7,14 @@ function moveRight()
 {
   marginLeft=marginLeft+50;
   ele.style.marginLeft=marginLeft+'px';
+  alert(marginLeft);
 }
 ele.onclick=function()
 {
    
-    alert("moving image");
+    alert(margin);
+    
    var interval=setInterval(moveRight,50);
-   alert(margiLeft);
+
    
 };
