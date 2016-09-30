@@ -37,7 +37,7 @@ butt.onclick=function(){
        }
    };
    var nameInput=document.getElementById('name');
-   var nam=nameInput.value;
+   var name=nameInput.value;
    request.open('GET','http://mlradhikaimad.imad.hasura-app.io/submit-name?name='+name,true);
    request.send(null);
       
