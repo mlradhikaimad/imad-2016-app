@@ -12,6 +12,6 @@ ele.onclick=function()
 {
    
     alert("moving image");
-   var interval=setInterval(marginLeft,100);
+   var interval=setInterval(moveRight,100);
    
 };
