@@ -7,5 +7,6 @@ ele.onclick=function()
    
     alert("moving image");
    
-    ele.style.marginLeft='0 px';
+    ele.style.marginLeft='0px';
+    ele.height='100px';
 };
