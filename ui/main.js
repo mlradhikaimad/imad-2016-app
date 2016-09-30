@@ -3,11 +3,11 @@ var element=document.getElementById('main-text');
 element.innerHTML="New Value";
 var ele=document.getElementById('img1');
 var marginLeft=0;
-var moveRight=function()
+function moveRight()
 {
   marginLeft=marginLeft+10;
-  ele.style.marginLeft=marginLeft+10+'x';
-};
+  ele.style.marginLeft=marginLeft+10+'px';
+}
 ele.onclick=function()
 {
    
