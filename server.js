@@ -104,8 +104,7 @@ app.get('/counter',function(req,res){
 });
 
 var names=[];
-app.get('/submit-name',function(req,res)
-{// /submit-name?name=xxxx
+app.get('/submit-name',function(req,res){// URL: /submit-name?name=xxxx
     var name=req.query.name;
     names.push(name);
  
