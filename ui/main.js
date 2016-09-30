@@ -5,7 +5,7 @@ var ele=document.getElementById('img1');
 var marginLight=0;
 var moveRight=function()
 {
-  marginLeft=marginLeft+10;  
+  marginLeft=marginLeft+10+'x';  
 };
 ele.onclick=function()
 {
