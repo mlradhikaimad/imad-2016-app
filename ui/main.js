@@ -27,6 +27,6 @@ butt.onclick=function(){
       
   
   var ul=document.getElementById('namelist');
-  u1.innerHTML=list;
+  ul.innerHTML=list;
   };
 
