@@ -1,6 +1,6 @@
-var button=document.getElementById('counter');
+var butt=document.getElementById('counter');
 var counter=0;
-button.onclick=function(){
+butt.onclick=function(){
     alert("clicked"+counter);
     counter=counter+1;
     var span=document.getElementById('count');
