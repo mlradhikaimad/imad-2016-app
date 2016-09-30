@@ -2,11 +2,15 @@ console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML="New Value";
 var ele=document.getElementById('img1');
+var marginLight=0;
+var moveRight=function()
+{
+  marginLeft=marginLeft+10;  
+};
 ele.onclick=function()
 {
    
     alert("moving image");
+   var interval=ele.stlyle.moveRight(marginLeft,100);
    
-    ele.style.marginLeft='100px';
-    ele.height='100 px';
 };
