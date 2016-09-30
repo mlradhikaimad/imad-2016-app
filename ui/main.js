@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-element.innerHTML="New Value";
+element.innerHTML="I am trying WebApp ";
 var ele=document.getElementById('img1');
 var marginLeft=0;
 function moveRight()
