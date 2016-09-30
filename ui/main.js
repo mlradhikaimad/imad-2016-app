@@ -7,5 +7,5 @@ ele.onclick=function()
    
     alert("moving image");
    
-    ele.style.marginLeft='0x';
+    ele.style.marginLeft='0 x';
 };
