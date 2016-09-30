@@ -25,7 +25,7 @@ function creteTemplate(data)
     var date=data.date;
     var head=data.head;
     var content=data.content;
-}
+
 var htmlTemplate=`
       <html>
 
