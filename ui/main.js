@@ -5,13 +5,15 @@ var ele=document.getElementById('img1');
 var marginLeft=0;
 function moveRight()
 {
-  marginLeft=marginLeft+10;
-  ele.style.marginLeft=marginLeft+10+'px';
+  marginLeft=marginLeft+50;
+  ele.style.marginLeft=marginLeft+'px';
 }
 ele.onclick=function()
 {
    
     alert("moving image");
    var interval=setInterval(moveRight,100);
+   if (marginLeft>=1000)
+   margiLeft=0
    
 };
